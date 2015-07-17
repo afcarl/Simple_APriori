@@ -124,7 +124,11 @@ if __name__ ==  "__main__":
     
     import sys
     import ast
+    import pprint as pp
     
     data = open(sys.argv[1])
     support = int(sys.argv[2])
-    print a_priori(data, support)
+
+    pp.PrettyPrinter(indent = 4)    
+    
+    print pp.pprint(a_priori(data, support))

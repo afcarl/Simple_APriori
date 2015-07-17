@@ -3,7 +3,7 @@
 This is a simple implementation of the a-priori algorithm without use of external libraries. It expects a .csv file and a support integer, as in:
 
 ```
-python apriori.py apriory.csv 20
+python apriori.py apriori.csv 20
 
 ```
 
